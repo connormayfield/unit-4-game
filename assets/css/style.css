@@ -35,7 +35,7 @@ body {
 
 
 #results-container {
-  width:80px;
+  width:300px;
   height: 100px;
   background-color: #FFFFFF;
   margin-top: 20px;
@@ -51,4 +51,58 @@ body {
 
 #losses {
   background-color: #fcf6e8;
+}
+
+#crystal-one{
+background-color: #FFFFFF;
+height: 50px;
+width: 50px;
+margin: 10px;
+float: left;
+
+}
+#crystal-two{
+background-color: #FFFFFF;
+height: 50px;
+width: 50px;
+margin: 10px;
+float: left;
+}
+
+#crystal-three {
+background-color: #FFFFFF;
+height: 50px;
+width: 50px;
+margin: 10px;
+float: left;
+
+}
+
+#crystal-four {
+background-color: #FFFFFF;
+height: 50px;
+width: 50px;
+margin: 10px;
+float: left;
+
+}
+
+#score-txt {
+  background-color: #2B6786;
+  width: 100px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+#your-score {
+  width: 200px;
+  height: 100px;
+  background-color: #FFFFFF;
+  margin: 10px;
+}
+
+#instruction-container p {
+  padding: 10px;
+  margin: 10px;
+
 }

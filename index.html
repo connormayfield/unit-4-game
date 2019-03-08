@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Crystal Collector</title>
-    <link rel= "stylesheet" type="text/css" href="css/reset.css">
-    <link rel= "stylesheet" type="text/css" href="css/style.css">
+    <link rel= "stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel= "stylesheet" type="text/css" href="assets/css/style.css">
 
   </head>
 
@@ -18,14 +18,25 @@
         <p class="instructions">The value of each crystal is hidden from you until you click on it.</p>
         <p class="instructions">Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
-    <div id="number-goal"></div>
-    <div id="results-container">
-      <div id="results-message">You Won!</div>
+    <div id="numberMatch">numbergoal placeholder</div>
+    <div id="resultsContainer">
+      <div id="resultsMessage">You Won!</div>
       <p id="wins">Wins:</p>
       <p id="losses">Losses:</p>
     </div>
 
+    <div id="crystal1" value="">1</div>
+    <div id="crystal2" value="">2</div>
+    <div id="crystal3" value="">3</div>
+    <div id="crystal4" value="">4</div>
+
+    <p id="scoreTxt">Your Score is</p>
+
+    <div id="playerScore">38</div>
 
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
   </body>
 </html>
