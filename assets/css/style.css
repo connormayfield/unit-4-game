@@ -26,22 +26,22 @@ body {
   background-color: #2B6786;
   margin: 40px;
 }
-#number-goal {
-  width: 200px;
+#numberMatch {
+  width: 90px;
   height: 100px;
   background-color: #FFFFFF;
 }
 
 
 
-#results-container {
-  width:300px;
+#resultsContainer {
+  width:80px;
   height: 100px;
   background-color: #FFFFFF;
   margin-top: 20px;
 }
 
-#results-message {
+#resultsMessage {
   background-color: #ebebeb;
 }
 
@@ -53,7 +53,7 @@ body {
   background-color: #fcf6e8;
 }
 
-#crystal-one{
+#crystal1{
 background-color: #FFFFFF;
 height: 50px;
 width: 50px;
@@ -61,7 +61,7 @@ margin: 10px;
 float: left;
 
 }
-#crystal-two{
+#crystal2{
 background-color: #FFFFFF;
 height: 50px;
 width: 50px;
@@ -69,16 +69,7 @@ margin: 10px;
 float: left;
 }
 
-#crystal-three {
-background-color: #FFFFFF;
-height: 50px;
-width: 50px;
-margin: 10px;
-float: left;
-
-}
-
-#crystal-four {
+#crystal3 {
 background-color: #FFFFFF;
 height: 50px;
 width: 50px;
@@ -87,14 +78,23 @@ float: left;
 
 }
 
-#score-txt {
+#crystal4 {
+background-color: #FFFFFF;
+height: 50px;
+width: 50px;
+margin: 10px;
+float: left;
+
+}
+
+#scoreTxt {
   background-color: #2B6786;
   width: 100px;
   margin-top: 100px;
   padding: 20px;
 }
 
-#your-score {
+#playerScore {
   width: 200px;
   height: 100px;
   background-color: #FFFFFF;
